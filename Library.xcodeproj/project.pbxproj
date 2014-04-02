@@ -14,13 +14,18 @@
 		D653C46718E7C70C0002F29A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D653C46618E7C70C0002F29A /* main.m */; };
 		D653C46B18E7C70C0002F29A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D653C46A18E7C70C0002F29A /* AppDelegate.m */; };
 		D653C46E18E7C70C0002F29A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D653C46C18E7C70C0002F29A /* Main.storyboard */; };
-		D653C47118E7C70C0002F29A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D653C47018E7C70C0002F29A /* ViewController.m */; };
 		D653C47318E7C70C0002F29A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D653C47218E7C70C0002F29A /* Images.xcassets */; };
 		D653C47A18E7C70C0002F29A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D653C47918E7C70C0002F29A /* XCTest.framework */; };
 		D653C47B18E7C70C0002F29A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D653C45A18E7C70C0002F29A /* Foundation.framework */; };
 		D653C47C18E7C70C0002F29A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D653C45E18E7C70C0002F29A /* UIKit.framework */; };
 		D653C48418E7C70C0002F29A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D653C48218E7C70C0002F29A /* InfoPlist.strings */; };
 		D653C48618E7C70C0002F29A /* LibraryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D653C48518E7C70C0002F29A /* LibraryTests.m */; };
+		D653C49118E7C8800002F29A /* LibraryTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D653C49018E7C8800002F29A /* LibraryTableViewController.m */; };
+		D653C49418E7C89A0002F29A /* ShelfTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D653C49318E7C89A0002F29A /* ShelfTableViewController.m */; };
+		D653C49718E7D6ED0002F29A /* BookTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D653C49618E7D6ED0002F29A /* BookTableViewController.m */; };
+		D653C49D18E927E10002F29A /* Library.m in Sources */ = {isa = PBXBuildFile; fileRef = D653C49C18E927E10002F29A /* Library.m */; };
+		D653C4E118E9F2090002F29A /* Shelf.m in Sources */ = {isa = PBXBuildFile; fileRef = D653C4E018E9F2090002F29A /* Shelf.m */; };
+		D653C4E418E9F2190002F29A /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = D653C4E318E9F2190002F29A /* Book.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +50,24 @@
 		D653C46918E7C70C0002F29A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D653C46A18E7C70C0002F29A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		D653C46D18E7C70C0002F29A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D653C46F18E7C70C0002F29A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D653C47018E7C70C0002F29A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		D653C47218E7C70C0002F29A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D653C47818E7C70C0002F29A /* LibraryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LibraryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D653C47918E7C70C0002F29A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		D653C48118E7C70C0002F29A /* LibraryTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LibraryTests-Info.plist"; sourceTree = "<group>"; };
 		D653C48318E7C70C0002F29A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D653C48518E7C70C0002F29A /* LibraryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LibraryTests.m; sourceTree = "<group>"; };
+		D653C48F18E7C8800002F29A /* LibraryTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LibraryTableViewController.h; sourceTree = "<group>"; };
+		D653C49018E7C8800002F29A /* LibraryTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LibraryTableViewController.m; sourceTree = "<group>"; };
+		D653C49218E7C89A0002F29A /* ShelfTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShelfTableViewController.h; sourceTree = "<group>"; };
+		D653C49318E7C89A0002F29A /* ShelfTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShelfTableViewController.m; sourceTree = "<group>"; };
+		D653C49518E7D6ED0002F29A /* BookTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookTableViewController.h; sourceTree = "<group>"; };
+		D653C49618E7D6ED0002F29A /* BookTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookTableViewController.m; sourceTree = "<group>"; };
+		D653C49B18E927E10002F29A /* Library.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Library.h; sourceTree = "<group>"; };
+		D653C49C18E927E10002F29A /* Library.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Library.m; sourceTree = "<group>"; };
+		D653C4DF18E9F2090002F29A /* Shelf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shelf.h; sourceTree = "<group>"; };
+		D653C4E018E9F2090002F29A /* Shelf.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Shelf.m; sourceTree = "<group>"; };
+		D653C4E218E9F2190002F29A /* Book.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Book.h; sourceTree = "<group>"; };
+		D653C4E318E9F2190002F29A /* Book.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Book.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +97,12 @@
 		D653C44E18E7C70C0002F29A = {
 			isa = PBXGroup;
 			children = (
+				D653C49B18E927E10002F29A /* Library.h */,
+				D653C49C18E927E10002F29A /* Library.m */,
+				D653C4DF18E9F2090002F29A /* Shelf.h */,
+				D653C4E018E9F2090002F29A /* Shelf.m */,
+				D653C4E218E9F2190002F29A /* Book.h */,
+				D653C4E318E9F2190002F29A /* Book.m */,
 				D653C46018E7C70C0002F29A /* Library */,
 				D653C47F18E7C70C0002F29A /* LibraryTests */,
 				D653C45918E7C70C0002F29A /* Frameworks */,
@@ -115,8 +136,12 @@
 				D653C46918E7C70C0002F29A /* AppDelegate.h */,
 				D653C46A18E7C70C0002F29A /* AppDelegate.m */,
 				D653C46C18E7C70C0002F29A /* Main.storyboard */,
-				D653C46F18E7C70C0002F29A /* ViewController.h */,
-				D653C47018E7C70C0002F29A /* ViewController.m */,
+				D653C49518E7D6ED0002F29A /* BookTableViewController.h */,
+				D653C49618E7D6ED0002F29A /* BookTableViewController.m */,
+				D653C48F18E7C8800002F29A /* LibraryTableViewController.h */,
+				D653C49018E7C8800002F29A /* LibraryTableViewController.m */,
+				D653C49218E7C89A0002F29A /* ShelfTableViewController.h */,
+				D653C49318E7C89A0002F29A /* ShelfTableViewController.m */,
 				D653C47218E7C70C0002F29A /* Images.xcassets */,
 				D653C46118E7C70C0002F29A /* Supporting Files */,
 			);
@@ -249,8 +274,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D653C47118E7C70C0002F29A /* ViewController.m in Sources */,
+				D653C49718E7D6ED0002F29A /* BookTableViewController.m in Sources */,
+				D653C49118E7C8800002F29A /* LibraryTableViewController.m in Sources */,
 				D653C46B18E7C70C0002F29A /* AppDelegate.m in Sources */,
+				D653C49D18E927E10002F29A /* Library.m in Sources */,
+				D653C4E418E9F2190002F29A /* Book.m in Sources */,
+				D653C49418E7C89A0002F29A /* ShelfTableViewController.m in Sources */,
+				D653C4E118E9F2090002F29A /* Shelf.m in Sources */,
 				D653C46718E7C70C0002F29A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

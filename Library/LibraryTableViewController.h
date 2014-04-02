@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  LibraryTableViewController.h
 //  Library
 //
 //  Created by Daniel Fairbanks on 3/29/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface LibraryTableViewController : UITableViewController
 
 @end
